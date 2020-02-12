@@ -1,0 +1,5 @@
+### はじめに
+
+Autotoolsを用いた Makefile生成の流れを勉強したので，メモがてらまとめました．
+
+AutotoolsはLinuxなら各々のパーケージ管理ツールからインストールできます．MacOSでも Homebrew経由で簡単に入れられます．
