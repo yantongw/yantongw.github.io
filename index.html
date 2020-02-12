@@ -1,12 +1,13 @@
-#  プロジェクト
-GitHub上でプロジェクトを公開する際は，次のようなスクリプトも追加しておくとユーザはより簡単に Makefileを作成できるようになります．
+"#  プロジェクト"
+"GitHub上でプロジェクトを公開する際は，次のようなスクリプトも追加しておくとユーザはより簡単に Makefileを作成できるようになります．"
 
-```bash
+"""```bash
 bootstrap.sh
 #!/bin/sh
 autoreconf --install --force || exit 1
 echo "Please run ./configure, make and make install."
 ```
-<font color=#7E7129>**autoreconfというのは，autoheader aclocal automake autoconf等をまとめてやってくれるコマンドです．**</font>
+"""
+"""<font color=#7E7129>**autoreconfというのは，autoheader aclocal automake autoconf等をまとめてやってくれるコマンドです．**</font>"""
 
 
